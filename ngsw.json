@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1652863967118,
+  "index": "https://jasanikuldip.github.io/weather/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jasanikuldip.github.io/weather/favicon.ico",
+        "https://jasanikuldip.github.io/weather/index.html",
+        "https://jasanikuldip.github.io/weather/main.6d3a0002a82933e6.js",
+        "https://jasanikuldip.github.io/weather/manifest.webmanifest",
+        "https://jasanikuldip.github.io/weather/polyfills.b56501ac765c71aa.js",
+        "https://jasanikuldip.github.io/weather/runtime.beae860f97329351.js",
+        "https://jasanikuldip.github.io/weather/styles.b15c7d66c7cfd12e.css"
+      ],
+      "patterns": [
+        "https:\\/\\/api\\.openweathermap\\.org\\/data\\/2\\.5\\/weather[^/]*[^/]*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-128x128.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-144x144.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-152x152.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-192x192.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-384x384.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-512x512.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-72x72.png",
+        "https://jasanikuldip.github.io/weather/assets/icons/icon-96x96.png",
+        "https://jasanikuldip.github.io/weather/assets/images/bg.jpg",
+        "https://jasanikuldip.github.io/weather/bg.3ec2018d9fcd09ee.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-128x128.png": "ce73e215bd9bd275b578f8355379fb54fd982806",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-144x144.png": "3b19e2214c9c42ff9e0ac8df3df344964e575c01",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-152x152.png": "1c9a3ad1421d6f4bf03aa052242c801bb0f65d33",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-192x192.png": "b9cf1e5d7c38bc11532a7df6b134cfa0240f721e",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-384x384.png": "9df80ce4012ee97f5a1249d9bdb28882e7f19ac0",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-512x512.png": "5d6f91d6381dea08d2524fc1a27f5a6f55e9680a",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-72x72.png": "c8fea6a7c571707a2d422be646c1bd6f76b2ecab",
+    "https://jasanikuldip.github.io/weather/assets/icons/icon-96x96.png": "1c1ea7e2020c3350421a7cdd63e5cee1cec10e32",
+    "https://jasanikuldip.github.io/weather/assets/images/bg.jpg": "34f1fd0909e7d6ad9271100ec800287ff3fb3836",
+    "https://jasanikuldip.github.io/weather/bg.3ec2018d9fcd09ee.jpg": "34f1fd0909e7d6ad9271100ec800287ff3fb3836",
+    "https://jasanikuldip.github.io/weather/favicon.ico": "6d88c4f6224cf5cdef5cf3ac2c8308a29315b1a2",
+    "https://jasanikuldip.github.io/weather/index.html": "686f8832d5db091301c03bba572281dd8c8cb9e4",
+    "https://jasanikuldip.github.io/weather/main.6d3a0002a82933e6.js": "fc8cd2f05a55072d0ec808d44880edb8de2f4c8c",
+    "https://jasanikuldip.github.io/weather/manifest.webmanifest": "2569d0e21b33b65ae7140d53efb47a0feb86fa16",
+    "https://jasanikuldip.github.io/weather/polyfills.b56501ac765c71aa.js": "f9d0acf92cb1e082829a29143e794a8cc9ae33b8",
+    "https://jasanikuldip.github.io/weather/runtime.beae860f97329351.js": "d677e9a60ba97ad6e3a16b45073ce8e3fe3de5e5",
+    "https://jasanikuldip.github.io/weather/styles.b15c7d66c7cfd12e.css": "891e34eb0b9d26d31598e8a3210c3eb677356e05"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
